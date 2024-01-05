@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Authorize</string>
+    <string name="phoneNumber">Введите номер телефона</string>
+    <string name="getCode">Получить код</string>
+    <string name="enterCode">Введите код</string>
+    <string name="confirmCode">Подтвердить код</string>
+    <string name="requestNewCode">Запросить новый код</string>
+    <string name="wrongCode">Неверный код</string>
+    <string name="requestNewCodeErrorView">Запросить новый код</string>
+    <string name="success">Успешно!</string>
+    <string name="close">Закрыть</string>
+</resources>
