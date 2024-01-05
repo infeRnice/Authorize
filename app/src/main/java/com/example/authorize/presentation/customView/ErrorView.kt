@@ -12,13 +12,13 @@ import com.example.authorize.R
 class ErrorView(context: Context, attrs: AttributeSet? = null): ConstraintLayout(context, attrs) {
     val errorMessage: TextView
     val requestNewCodeButton: Button
-    val closeButtonErrorView: Button
+    val closeButton: Button
 
     init {
         LayoutInflater.from(context).inflate(R.layout.error_view, this, true)
         errorMessage = findViewById(R.id.errorMessage)
         requestNewCodeButton = findViewById(R.id.requestNewCodeButton)
-        closeButtonErrorView = findViewById(R.id.closeButtonErrorView)
+        closeButton = findViewById(R.id.closeButton)
     }
 
     fun hide() {

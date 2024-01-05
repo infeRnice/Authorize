@@ -65,7 +65,7 @@ class AuthFragment : Fragment() {
         successView.closeButton.setOnClickListener {
             successView.hide()
         }
-        errorView.closeButtonErrorView.setOnClickListener {
+        errorView.closeButton.setOnClickListener {
             errorView.hide()
         }
         errorView.requestNewCodeButton.setOnClickListener {

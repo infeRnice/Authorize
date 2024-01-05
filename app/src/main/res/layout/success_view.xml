@@ -10,7 +10,8 @@
         android:id="@+id/successMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/success" />
+        android:text="@string/success"
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/closeButton"
