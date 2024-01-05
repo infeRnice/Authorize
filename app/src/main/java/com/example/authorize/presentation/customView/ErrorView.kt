@@ -10,12 +10,15 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.authorize.R
 
 class ErrorView(context: Context, attrs: AttributeSet? = null): ConstraintLayout(context, attrs) {
-    val errorMessage: TextView = findViewById(R.id.errorMessage)
-    val requestNewCodeButton: Button = findViewById(R.id.requestNewCodeButton)
-    val closeButtonErrorView: Button = findViewById(R.id.closeButtonErrorView)
+    val errorMessage: TextView
+    val requestNewCodeButton: Button
+    val closeButtonErrorView: Button
 
     init {
         LayoutInflater.from(context).inflate(R.layout.error_view, this, true)
+        errorMessage = findViewById(R.id.errorMessage)
+        requestNewCodeButton = findViewById(R.id.requestNewCodeButton)
+        closeButtonErrorView = findViewById(R.id.closeButtonErrorView)
     }
 
     fun hide() {

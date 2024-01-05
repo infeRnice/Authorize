@@ -11,11 +11,13 @@ import com.example.authorize.R
 
 class SuccessView(context: Context, attrs: AttributeSet? = null): RelativeLayout(context, attrs) {
 
-    val successMessage: TextView = findViewById(R.id.successMessage)
-    val closeButton: Button = findViewById(R.id.closeButton)
+    val successMessage: TextView
+    val closeButton: Button
 
     init {
         LayoutInflater.from(context).inflate(R.layout.success_view, this, true)
+        successMessage = findViewById(R.id.successMessage)
+        closeButton = findViewById(R.id.closeButton)
     }
 
     fun hide() {
